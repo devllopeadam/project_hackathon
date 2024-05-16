@@ -6,3 +6,18 @@
 body {
   font-family: "Rubik", sans-serif;
 }
+
+@layer components {
+  .container {
+    @apply w-full max-w-[1150px] max-xl:px-14 max-lg:px-6 max-md:px-5 mx-auto;
+  }
+}
+
+
+.hero {
+  background-image: linear-gradient(120deg, #defcfe 0%, #5199fd 100%);
+}
+
+.login {
+  background-image: linear-gradient(120deg, #defcfe 0%, #5199fd 100%);
+}

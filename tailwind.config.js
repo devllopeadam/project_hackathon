@@ -5,7 +5,17 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        "accent-grey": "#f4f4f5"
+      },
+      borderRadius: {
+        "radius": "0.5rem"
+      },
+      boxShadow: {
+        "input": "#5199fd 0px 0px 0px 1px"
+      }
+    },
   },
   plugins: [],
 };
